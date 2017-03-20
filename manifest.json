@@ -1,0 +1,21 @@
+{
+  "name" : "Whatsapp Script",
+  "version" : "1.1",
+  "description" : "Auto",
+  "permissions": [
+   "activeTab"
+   ],
+  "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://web.whatsapp.com/*"],
+    "js": ["log.js"],
+    "css":["log.css"]
+    }
+  ]
+}
+
+
