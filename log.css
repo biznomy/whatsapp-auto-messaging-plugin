@@ -1,0 +1,29 @@
+.bz_btn{
+    font-size: small;
+    padding: 4px;
+    background: rgba(218, 213, 213, 0.81);
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.bz_whatsapp_send_msg{
+	padding: 15px;
+    border-radius: 5px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+}
+
+#bz_save_record{
+	padding: 25px;
+    background: rgba(23, 21, 21, 0.92);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    z-index: 9999999;
+}
